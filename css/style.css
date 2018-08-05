@@ -1,0 +1,146 @@
+
+html {
+  box-sizing: border-box;
+	line-height: normal;
+	margin-bottom: 0;
+}
+
+*, *:before, *:after {
+/*    border: 1px solid #424242 !important;		  */
+	box-sizing: inherit;
+}
+
+body {
+	color: #eeeeee;
+	background-color: #1B5E20;
+	font-family: 'Roboto', sans-serif;
+	min-width: 500px;
+	font-size: 15px;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#title {
+ 	text-align: center;
+	font-size: 40px;
+	margin-top: 10px;
+	width: 100%;
+	color: #EEEEEE;
+	margin-bottom: 0;
+}
+
+#main-form {
+	background-color: #EEEEEE;
+	color: #424242;
+	box-shadow: 4px 6px 10px 4px black;
+	border-radius: 5px;
+	width: 80%;
+ 	max-width: 900px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+#description {
+	font-size: 20px;
+	text-align: center;
+}
+
+.labels {
+	display: inline-block;
+	float: left;
+	text-align: right;
+	width: 50%;
+	padding: 5px;
+	vertical-align: top;
+	margin-top: 12px;
+	font-size: 15px;	
+}
+
+.drop-radio-check {
+	margin-top: 20px;
+}
+
+.input-area {
+	display: inline-block;
+	float: right;
+	text-align: left;
+	width: 50%;
+	vertical-align: middle;
+	
+}
+
+.input-field {
+	height: 30px;
+	width: 300px;
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
+}
+
+#name, #email, #number, #comments {
+	font-size: 15px;
+}
+
+#dropdown, #most-liked {
+	height: 38px;
+	width: 175px;
+	padding: 5px;
+	margin: 10px;
+	margin-top: 15px;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
+	font-size: 15px;
+}
+
+.user-ratings {
+	float: left;
+	margin-right: 5px;
+}
+
+.radio, .checkbox {
+	position: relative;
+	left: -40px;
+	margin-left: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+#submit {
+	display: block;
+	background-color: #1B5E20;
+	box-shadow: 3px 3px 10px 2px black;
+	border-radius: 4px;
+	color: white;
+	font-size: 20px;
+	height: 45px;
+	width: 120px;
+	margin: 10px auto;
+	border: 0px solid;
+}
+
+ @media only screen and (max-width: 768px) {
+  .input-field {
+    width: 75%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media only screen  
+ 
+	and (min-device-width: 320px)
+	and (max-device-width: 568px) {
+
+	.labels, .input-area, input-field, select, #main-form {
+    	width: 100%;
+		float: none;
+  	}
+}
